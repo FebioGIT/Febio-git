@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 30px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f6fc;
+}
+
+tr:hover {
+    background-color: #dbe9fb;
+    cursor: pointer;
+}
+
+/* Form container */
+form {
+    max-width: 480px;
+    margin: 30px auto 60px auto;
+    padding: 25px 35px;
+    background: #f0f5fa; /* very light blue */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 86, 179, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Label styling */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #0d3b66; /* dark blue */
+    font-size: 15px;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border: 1.8px solid #1e81b0; /* medium blue */
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    color: #034078;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+    border-color: #005b96; /* darker blue */
+    box-shadow: 0 0 8px #005b96aa;
+    outline: none;
+}
+
+/* Submit button */
+form button {
+    background-color: #0077b6; /* bright blue */
+    color: #f0f5fa; /* light */
+    border: none;
+    padding: 13px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    box-shadow: 0 5px 10px #0077b6bb;
+    margin-right: 15px;
+}
+
+form button:hover {
+    background-color: #023e8a; /* navy blue */
+    box-shadow: 0 6px 14px #023e8abb;
+}
+
+/* Cancel button styled as link */
+form a.btn-cancel {
+    display: inline-block;
+    padding: 13px 28px;
+    background-color: #90e0ef; /* soft blue */
+    color: #023e8a;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: background-color 0.25s ease;
+    box-shadow: 0 3px 8px #90e0efbb;
+}
+
+form a.btn-cancel:hover {
+    background-color: #48cae4;
+    box-shadow: 0 4px 12px #48cae4bb;
+}
+
+/* Container form edit */
+form {
+    max-width: 480px;
+    margin: 30px auto 60px auto;
+    padding: 25px 35px;
+    background: #f0f5fa; /* very light blue */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 86, 179, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Label styling */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #0d3b66; /* dark blue */
+    font-size: 15px;
+}
+
+/* Input fields */
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border: 1.8px solid #1e81b0; /* medium blue */
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    color: #034078;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+    border-color: #005b96; /* darker blue */
+    box-shadow: 0 0 8px #005b96aa;
+    outline: none;
+}
+
+/* Submit button */
+form button {
+    background-color: #0077b6; /* bright blue */
+    color: #f0f5fa; /* light */
+    border: none;
+    padding: 13px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    box-shadow: 0 5px 10px #0077b6bb;
+    margin-right: 15px;
+}
+
+form button:hover {
+    background-color: #023e8a; /* navy blue */
+    box-shadow: 0 6px 14px #023e8abb;
+}
+
+/* Cancel button styled as link */
+form a.btn-cancel {
+    display: inline-block;
+    padding: 13px 28px;
+    background-color: #90e0ef; /* soft blue */
+    color: #023e8a;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: background-color 0.25s ease;
+    box-shadow: 0 3px 8px #90e0efbb;
+}
+
+form a.btn-cancel:hover {
+    background-color: #48cae4;
+    box-shadow: 0 4px 12px #48cae4bb;
+}
